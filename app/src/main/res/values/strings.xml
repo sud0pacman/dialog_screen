@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">For Dialog</string>
+    <string name="confirm_text1">Rostdan ham savatni</string>
+    <string name="confirm_text2">  tozalamoqchimisz?</string>
+    <string name="ha">Ha</string>
+    <string name="yo_q">Yo\'q</string>
+</resources>

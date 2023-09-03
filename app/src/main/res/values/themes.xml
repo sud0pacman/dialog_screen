@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ForDialog" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ForDialog" parent="Base.Theme.ForDialog" />
+
+    <style name="roundImage">
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="TransparentDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+
+    <style name="AnimationsForDialog">
+        <item name="android:windowEnterAnimation">@anim/scale1</item>
+        <item name="android:windowExitAnimation">@anim/scale2</item>
+    </style>
+
+
+    <style name="DialogAnimationOpen">
+        <item name="android:windowEnterAnimation">@anim/scale1</item>
+    </style>
+
+    <style name="DialogAnimationClose">
+        <item name="android:windowExitAnimation">@anim/scale2</item>
+    </style>
+</resources>
