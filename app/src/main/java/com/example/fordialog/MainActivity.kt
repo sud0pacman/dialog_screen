@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
         btnYes.setOnClickListener {
             "click on Yo'q".toToast()
         }
-        //
 
         btnNo.setOnClickListener {
             dialog.window?.attributes?.windowAnimations = R.style.DialogAnimationClose
